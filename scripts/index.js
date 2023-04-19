@@ -1,57 +1,71 @@
-console.log("clairon");
-// console.log(clairon);
-console.log("12");
-console.log(12);
+// console.log("clairon");
+// // console.log(clairon);
+// console.log("12");
+// console.log(12);
 
-var p=document.getElementById("para");
-console.log(p);
- p= document.getElementById("para").innerHTML="i hate u";
- console.log(p);
- p= document.getElementById("para").style["color"]="green";
- console.log(1+2)
-console.log("C and P")
+// var p=document.getElementById("para");
+// console.log(p);
+//  p= document.getElementById("para").innerHTML="i hate u";
+//  console.log(p);
+//  p= document.getElementById("para").style["color"]="green";
+//  console.log(1+2)
+// console.log("C and P")
 
-//  create element
-// const l=document.createElement("div");
-// l.id="main";
-const para= document.createElement("p");
-para.id= "para";
-para.innerHTML="i love you";
-// l.appendChild(para);
-document.body.appendChild(para);
+// //  create element
+// // const l=document.createElement("div");
+// // l.id="main";
+// const para= document.createElement("p");
+// para.id= "para";
+// para.innerHTML="i love you";
+// // l.appendChild(para);
+// document.body.appendChild(para);
 
-//dates
-let r= document.getElementById("dat");
-let k = new Date();
-r.innerHTML= k;
-// console.log(r);
+// //dates
+// let r= document.getElementById("dat");
+// let k = new Date();
+// r.innerHTML= k;
+// // console.log(r);
 
-let b=new Date("2003-09-28");
-r.innerHTML=b;
+// let b=new Date("2003-09-28");
+// r.innerHTML=b;
 
-let n= b.getDay();
-r.innerHTML=n;
-let w=b.getMonth();
-r.innerHTML=w;
+// let n= b.getDay();
+// r.innerHTML=n;
+// let w=b.getMonth();
+// r.innerHTML=w;
 
 
-//window
-let windo= window.location.href;
-let win=document.getElementById("window");
-win.innerHTML=windo;
+// //window
+// let windo= window.location.href;
+// let win=document.getElementById("window");
+// win.innerHTML=windo;
 
-windo= window.location.hostname;
- win=document.getElementById("window");
-win.innerHTML=windo;
+// windo= window.location.hostname;
+//  win=document.getElementById("window");
+// win.innerHTML=windo;
 
-window.alert("hey");
-const f=document.getElementById("save");
-f.addEventListener("click",()=>{
-    f.innerHTML="love";
-    alert("are u sure u want to save")
+// window.alert("hey");
+// const f=document.getElementById("save");
+// f.addEventListener("click",()=>{
+//     f.innerHTML="love";
+//     alert("are u sure u want to save")
+// })
+
+// const cl=setInterval(()=>{
+//   window.location.href="https://instagram.com"
+// },4000);
+// clearInterval(cl);
+
+
+//mapping
+
+const numbers=[1,-1,2,3];
+const filtered = numbers.filter(n=>n>=0);
+const items=filtered.map(n=>"<li>"+n+"<li>");
+// const html=items.join();
+console.log(items);
+
+let a=[1,2,3,5,6,7];
+a.map((number)=>{
+  console.log("number is ${number}");
 })
-
-const cl=setInterval(()=>{
-  window.location.href="https://instagram.com"
-},4000);
-clearInterval(cl);
