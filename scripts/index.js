@@ -60,12 +60,14 @@
 //mapping
 
 const numbers=[1,-1,2,3];
+
 const filtered = numbers.filter(n=>n>=0);
 const items=filtered.map(n=>"<li>"+n+"<li>");
-// const html=items.join();
-console.log(items);
+const html=items.join();
+console.log(html);
 
 let a=[1,2,3,5,6,7];
 a.map((number)=>{
   console.log("number is ${number}");
+
 })
