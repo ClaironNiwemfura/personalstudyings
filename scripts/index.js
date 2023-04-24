@@ -59,15 +59,34 @@
 
 //mapping
 
-const numbers=[1,-1,2,3];
+// const numbers=[1,-1,2,3];
 
-const filtered = numbers.filter(n=>n>=0);
-const items=filtered.map(n=>"<li>"+n+"<li>");
-const html=items.join();
-console.log(html);
+// const filtered = numbers.filter(n=>n>=0);
+// const items=filtered.map(n=>"<li>"+n+"<li>");
+// const html=items.join();
+// console.log(html);
 
-let a=[1,2,3,5,6,7];
-a.map((number)=>{
-  console.log("number is ${number}");
+// let a=[1,2,3,5,6,7];
+// a.map((number)=>{
+//   console.log("number is ${number}");
 
-})
+// });
+
+// let newArray = ["Musab", "I", "Handsome"];    
+// let [noun, pronoun, adjective] = newArray; 
+
+// The above can also be rewritten as this:  
+
+// let [noun, pronoun, adjective] = ["Musab", "I", "Handsome"];    
+
+// console.log(noun);    
+// console.log(pronoun);
+
+// let newArray = [a, b, c, d, e];
+// let [firstLetter, , , ,lastLetter] = [a, b, c, d, e];
+// console.log(firstLetter);
+function myName(Musab, Habeeb) {        
+  alert("Musab Habeeb");    
+}    
+
+let display = `This displays my name ${myName()}`
