@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": 1
+    },
+    {
+      "firstName": "kamali",
+      "email": "kamali@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "firstName": "clairon",
+      "email": "clairon@gmail.com",
+      "password": "123",
+      "id": 4
+    }
+  ]
+}
